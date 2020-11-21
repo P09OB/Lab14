@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
+    <title>Pagina principal</title>
+</head>
+<body id= 'fondo'>
+    <div id = "componentSignup">
+        <h3>Regístrate</h3>     
+        <p>
+         <input type="text" id="inputName" placeholder="Nombre">
+        </p>
+        <input type="text" id="inputEmail" placeholder="Correo">
+        <p>
+            <input type="text" id="inputTel" placeholder="Teléfono">
+        </p>
+        <input type = "password" id="inputPassword" placeholder="Contraseña">
+         <p>
+        <input type = "password" id="inputConfirmPassword" placeholder="Confirmar Contraseña"> 
+
+        </p>
+        <p>
+            <button id="buttonSingUp">Regístrate</button>
+        </p>
+        <p id='text' >¿Tienes una cuenta? <a href="login.html">Inicia Sesión</a></p>
+        
+
+    </div>
+
+</body>
+</html>
+
+<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase.js"></script>
+<script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyBmoIynYAd0CuSKP4SlGml3u4nLfqpRYAc",
+      authDomain: "chat-f63c7.firebaseapp.com",
+      databaseURL: "https://chat-f63c7.firebaseio.com",
+      projectId: "chat-f63c7",
+      storageBucket: "chat-f63c7.appspot.com",
+      messagingSenderId: "18692800957",
+      appId: "1:18692800957:web:97d75476e44c9538fe52d4"
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <script src ="Js/signUp.js"></script>

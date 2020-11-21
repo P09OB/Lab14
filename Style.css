@@ -1,0 +1,116 @@
+#fondo{
+    background-color: #1d3557;
+
+}
+
+#componentSignup {
+
+    
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    font-family: 'Noto Sans KR', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 2%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 4%;
+    border-radius: 3px;
+
+
+    
+
+
+
+}
+
+#componentLogin {
+
+    display: flex;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 2%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 4%;
+
+    border-radius: 3px;
+
+
+}
+
+#componentIndex{
+
+    display: flex;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  white;
+    padding: 2%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 3px;
+    margin-top: 4%;
+
+
+
+}
+
+#componentContact{
+
+    display: flex;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  white;
+    padding: 2%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 3px;
+    
+
+
+
+}
+
+.componentList{
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+
+    border-top: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid  #e5e5e5;
+    border-left: 1px solid  #e5e5e5;
+    width: 80%;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    border-radius: 6px;
+
+}
+
+.buttonDelate{
+
+    border-style: none;
+    background-color:#392f5a;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 86%;
+    margin-top: 4%;
+
+
+
+}
