@@ -32,8 +32,9 @@ class contact{
 
         delateButton.addEventListener('click', () =>{
             const database = firebase.database();
-            database.ref('Lab14/contactos/'+this.contactos.idpush /+this.contactos.id).set(null);
-            console.log("entre"+this.contactos.idpush+" "+this.contactos.id);
+            let in1 = this.contactos.idpush +'/'+ this.contactos.id;
+            database.ref('Lab14/contactos/'+in1).set(null);
+            
         });
         component.appendChild(delateButton);
         component.appendChild(name);
